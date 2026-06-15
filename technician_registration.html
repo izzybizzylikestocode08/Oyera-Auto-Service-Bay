@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technician Registration - Oyera Auto</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="app-container">
+        <aside class="sidebar">
+            <h2>Oyera Auto</h2>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Dashboard</a></li>
+                    <li><a href="customer_registration.html">Register Customer</a></li>
+                    <li><a href="technician_registration.html" class="active">Register Technician</a></li>
+                    <li><a href="customer_display.html">View Customers</a></li>
+                </ul>
+            </nav>
+        </aside>
+
+        <main class="main-content">
+            <header>
+                <h1>Technician Registration</h1>
+            </header>
+            
+            <section class="form-container">
+                <form action="#" method="POST">
+                    <div class="form-group">
+                        <label for="techName">Technician Name:</label>
+                        <input type="text" id="techName" name="techName" required placeholder="Alex Crane">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="techSpecialty">Specialty / Skill:</label>
+                        <select id="techSpecialty" name="techSpecialty">
+                            <option value="engine">Engine Diagnostics</option>
+                            <option value="oil">Engine Oil and Filters</option>
+                            <option value="brakes">Brakes</option>
+                            <option value="general">General Service</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="techPhone">Emergency Contact Phone:</label>
+                        <input type="tel" id="techPhone" name="techPhone" required placeholder="+256...">
+                    </div>
+
+                    <button type="submit" class="btn">Register Technician</button>
+                </form>
+            </section>
+        </main>
+    </div>
+
+</body>
+</html>
+<a href="customer_registration.html">Customer Reg Page</a>

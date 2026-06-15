@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Registration - Oyera Auto</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="app-container">
+        <aside class="sidebar">
+            <h2>Oyera Auto</h2>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Dashboard</a></li>
+                    <li><a href="customer_registration.html" class="active">Register Customer</a></li>
+                    <li><a href="technician_registration.html">Register Technician</a></li>
+                    <li><a href="customer_display.html">View Customers</a></li>
+                </ul>
+            </nav>
+        </aside>
+
+        <main class="main-content">
+            <header>
+                <h1>Customer Registration</h1>
+            </header>
+            
+            <section class="form-container">
+                <form action="#" method="POST">
+                    <div class="form-group">
+                        <label for="custName">Full Name:</label>
+                        <input type="text" id="custName" name="custName" required placeholder="John Doe">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="custEmail">Email Address:</label>
+                        <input type="email" id="custEmail" name="custEmail" required placeholder="john@example.com">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="custPhone">Phone Number:</label>
+                        <input type="tel" id="custPhone" name="custPhone" required placeholder="+256...">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="vehicleModel">Vehicle Model / Make:</label>
+                        <input type="text" id="vehicleModel" name="vehicleModel" required placeholder="Toyota Camry 2018">
+                    </div>
+
+                    <button type="submit" class="btn">Register Customer</button>
+                </form>
+            </section>
+        </main>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer View - Oyera Auto</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="app-container">
+        <aside class="sidebar">
+            <h2>Oyera Auto</h2>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Dashboard</a></li>
+                    <li><a href="customer_registration.html">Register Customer</a></li>
+                    <li><a href="technician_registration.html">Register Technician</a></li>
+                    <li><a href="customer_display.html" class="active">View Customers</a></li>
+                </ul>
+            </nav>
+        </aside>
+
+        <main class="main-content">
+            <header>
+                <h1>Registered Customers & Fleet</h1>
+            </header>
+            
+            <section class="table-container">
+                <table class="data-table">
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Customer Name</th>
+                            <th>Vehicle Model</th>
+                            <th>Contact Info</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>#001</td>
+                            <td>Jane Mukasa</td>
+                            <td>Subaru Forester 2017</td>
+                            <td>jane@example.com</td>
+                            <td><span class="status pending">In Service</span></td>
+                        </tr>
+                        <tr>
+                            <td>#002</td>
+                            <td>David Okello</td>
+                            <td>Toyota Rav4 2020</td>
+                            <td>+256 700 112233</td>
+                            <td><span class="status completed">Completed</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+        </main>
+    </div>
+
+</body>
+</html>
